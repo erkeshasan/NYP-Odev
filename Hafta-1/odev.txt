@@ -1,7 +1,19 @@
 HAFTA -1 : Değişken kullanımı ve Değer Okuma - Yazma İşlemleri (6 Uygulama)
+
+#1
 İki sayının farkını bulan c# kodu
-5 sayısının karesini bulan c# kodu 
-10 sayısının 3 ' e bölümünden kalanını bulan  c# kodu 
-Klavyeden girilen 4 sayının toplamını ve çarpımını bulan c# kodu 
+
+#2
+5 sayısının karesini bulan c# kodu
+
+#3
+10 sayısının 3 ' e bölümünden kalanını bulan  c# kodu
+
+#4
+Klavyeden girilen 4 sayının toplamını ve çarpımını bulan c# kodu
+
+#5
 Klavyeden girilen 2 sayının bölümünü bulan c# kodu
-Klavyeden kenarları girilen dikdörtgenler prizmasının hacmini hesaplayan   c# kodu 
+
+#6
+Klavyeden kenarları girilen dikdörtgenler prizmasının hacmini hesaplayan c# kodu
