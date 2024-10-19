@@ -1,7 +1,7 @@
 Console.Write("Sayı Giriniz: ");
-int Sayı = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-switch (Sayı) {
+switch (num) {
     case 1:
         Console.WriteLine("BİR");
         break;
