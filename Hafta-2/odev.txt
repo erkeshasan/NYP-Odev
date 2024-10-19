@@ -1,7 +1,11 @@
-- Girilen sayının çift - tek kontrolü (if)
+#1
+Girilen sayının çift - tek kontrolü (if)
 
-- 1 den 10 a kadar sayıları ekrana yazı değeri olarak yazma işlemi (örn 1 girildiğinde ekrana BİR yazılsın - switch yapısı)
+#2
+1 den 10 a kadar sayıları ekrana yazı değeri olarak yazma işlemi (örn 1 girildiğinde ekrana BİR yazılsın - switch yapısı)
 
-- Kullanıcı adı admin ve şifre Admin_32453@ olduğunda giriş başarılı değilse başarısız uyarısı veren c# kodu
+#3
+Kullanıcı adı admin ve şifre Admin_32453@ olduğunda giriş başarılı değilse başarısız uyarısı veren c# kodu
 
-- 10-20 20-30 30-40 arası sıcaklık durumlarına göre ekrana (normal - sıcak - çok sıcak) uyarısı veren veren c# kodu (if else if else if else yapısı)
+#4
+10-20 20-30 30-40 arası sıcaklık durumlarına göre ekrana (normal - sıcak - çok sıcak) uyarısı veren veren c# kodu (if else if else if else yapısı)
