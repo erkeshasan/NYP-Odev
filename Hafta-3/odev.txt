@@ -1,0 +1,25 @@
+Soru 1 - Foreach Döngüsü ile Liste Elemanlarını Yazdırma
+Bir ArrayList oluşturun ve içerisine birkaç tamsayı ekleyin. foreach döngüsü kullanarak listedeki her bir sayıyı ekrana yazdıran bir program yazınız.
+Döngü tamamlandığında sayıların toplamını da ekrana yazdırınız.
+
+Soru 2 - Hazır Metod Kullanımı 
+Kullanıcıdan bir cümle girmesini isteyin ve bu cümledeki kelime sayısını hesaplayıp ekrana yazdıran bir program yazınız. Kelime sayısını hesaplamak için Split() metodunu kullanabilirsiniz.
+
+Soru 3 - ArrayList ile Alfabetik Sıralama 
+Kullanıcıdan 5 adet isim alarak bir ArrayList içinde saklayın. Daha sonra bu isimleri alfabetik olarak sıralayarak ekrana yazdırın. (Not: ArrayList.Sort() metodunu kullanabilirsiniz.)
+
+Soru 4 - For Döngüsü ile Fibonacci Serisi 
+Kullanıcıdan bir sayı girmesini isteyin. Bu sayı kadar Fibonacci serisindeki sayıları hesaplayıp ekrana yazdıran bir program yazınız. for döngüsü kullanarak seriyi oluşturun.
+Örnek: Eğer kullanıcı 5 girerse, ekranda "0 1 1 2 3" yazmalıdır.
+
+Soru 5 - While Döngüsü ile Tahmin Oyunu 
+Kullanıcıdan bir sayı tahmin etmesini isteyen bir program yazınız. Program, doğru tahmin yapılana kadar kullanıcıdan yeni tahminler almaya devam etmelidir. Doğru tahmin yapıldığında ekrana bir tebrik mesajı yazdırılmalıdır.
+Not: Sabit bir sayı belirleyebilir veya Random sınıfı ile rastgele bir sayı oluşturabilirsiniz.
+
+Soru 6 - Do While Döngüsü ile Basit Hesap Makinesi
+Kullanıcıdan işlem türünü (+, -, *, /) ve iki sayı alarak işlemi gerçekleştiren bir program yazınız. Kullanıcı "çıkış" yazana kadar işlemleri tekrarlayan bir do while döngüsü kurunuz.
+Ekstra: Bölme işlemi sırasında sıfıra bölme hatasını kontrol ediniz.
+
+Soru 7 - For ve While Döngüsü ile Sayı Toplama Oyunu 
+Kullanıcıdan pozitif tam sayılar girmesini isteyen bir program yazınız. Kullanıcı "0" girdiğinde girişi sonlandırın ve girilen pozitif sayıların toplamını bir while döngüsü kullanarak hesaplayın.
+Toplamı bulduktan sonra tüm pozitif sayıları tek tek ekrana yazdırmak için bir for döngüsü kullanınız.
