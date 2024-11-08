@@ -22,7 +22,7 @@ class Üçgen
         Yükseklik = yükseklik;
     }
 
-    public double Alan()
+    public double Alan() // Parametresiz metot?
     {
         return (Taban * Yükseklik) / 2;
     }
