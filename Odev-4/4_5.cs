@@ -1,6 +1,6 @@
-Console.WriteLine(Ortalama(1, 2, 10, 20, 37.5));
+Console.WriteLine(AritmetikOrtalama(1, 2, 3, 4, 10031.0025));
 
-static double Ortalama(params double[] sayılar)
+static double AritmetikOrtalama(params double[] sayılar)
 {
     double toplam = 0;
 
