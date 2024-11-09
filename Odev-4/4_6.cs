@@ -1,6 +1,6 @@
 Console.WriteLine(FiltreliToplam(new int[] { 0, 12, 13, 14, 15, 16, 17, 18, 20, 30 }, 18));
 
-static double FiltreliToplam(int[] Dizi, int Filtre)
+static int FiltreliToplam(int[] Dizi, int Filtre)
 {
     int toplam = 0;
 
