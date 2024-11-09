@@ -1,4 +1,4 @@
-Console.WriteLine(Ortalama(1, 2));
+Console.WriteLine(Ortalama(1, 2, 10, 20, 37.5));
 
 static double Ortalama(params double[] sayılar)
 {
