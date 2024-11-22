@@ -1,10 +1,5 @@
 class Program
 {
-    static void Main()
-    {
-        Console.WriteLine(ÜçgenAlanıHesapla());
-    }
-
     public static double ÜçgenAlanıHesapla()
     {
         double taban, yükseklik;
@@ -16,5 +11,10 @@ class Program
         yükseklik = Convert.ToDouble(Console.ReadLine());
 
         return (taban * yükseklik) / 2;
+    }
+
+    static void Main()
+    {
+        Console.WriteLine(ÜçgenAlanıHesapla());
     }
 }
