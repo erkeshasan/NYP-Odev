@@ -1,6 +1,6 @@
 class Program
 {
-    static int Fibonacci(int Terim)
+    public static int Fibonacci(int Terim)
     {
         if (Terim < 2)
             return Terim;
