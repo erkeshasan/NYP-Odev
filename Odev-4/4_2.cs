@@ -1,12 +1,5 @@
 class Program
 {
-    static void Main()
-    {
-        int[] Dizi = { -15, 200, 150, 350, 7540, 12, -53678, 7000 };
-
-        Console.WriteLine(EnBüyükBul(Dizi));
-    }
-
     public static int EnBüyükBul(int[] Dizi)
     {
         int enBüyük = Dizi[0];
@@ -20,5 +13,12 @@ class Program
         }
 
         return enBüyük;
+    }
+
+    static void Main()
+    {
+        int[] Dizi = { -15, 200, 150, 350, 7540, 12, -53678, 7000 };
+
+        Console.WriteLine(EnBüyükBul(Dizi));
     }
 }
