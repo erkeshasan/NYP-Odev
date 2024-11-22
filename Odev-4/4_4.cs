@@ -1,9 +1,18 @@
-Console.WriteLine(Fibonacci(9));
-
-static int Fibonacci(int Terim)
+class Program
 {
-    if (Terim <= 1)
-        return Terim;
+    static void Main()
+    {
+        Console.Write("Terim: ");
+        int terim = Convert.ToInt32(Console.ReadLine());
 
-    return Fibonacci(Terim - 2) + Fibonacci(Terim - 1);
+        Console.Write(Fibonacci(terim));
+    }
+
+    static int Fibonacci(int Terim)
+    {
+        if (Terim < 2)
+            return Terim;
+
+        return Fibonacci(Terim - 1) + Fibonacci(Terim - 2);
+    }
 }
