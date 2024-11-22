@@ -1,18 +1,18 @@
 class Program
 {
-    public static int CalculateSum(int Bir, int İki)
+    public static int CalculateSum(int a, int b)
     {
-        return Bir + İki;
+        return a + b;
     }
 
-    public static double CalculateSum(double Bir, double İki)
+    public static double CalculateSum(double a, double b)
     {
-        return Bir + İki;
+        return a + b;
     }
 
-    public static int CalculateSum(int Bir, int İki, int Üç)
+    public static int CalculateSum(int a, int b, int c)
     {
-        return Bir + İki + Üç;
+        return a + b + c;
     }
 
     public static void Main()
