@@ -1,6 +1,6 @@
 class Program
 {
-    static List<string> StringFiltresi(string[] Strings)
+    public static List<string> StringFiltresi(string[] Strings)
     {
         List<string> geçen = new List<string> { };
 
