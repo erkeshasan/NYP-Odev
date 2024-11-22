@@ -1,6 +1,6 @@
 class Program
 {
-    static double AritmetikOrtalama(params double[] sayılar)
+    public static double AritmetikOrtalama(params double[] sayılar)
     {
         double toplam = 0;
 
