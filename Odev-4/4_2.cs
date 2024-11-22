@@ -1,16 +1,24 @@
-Console.WriteLine(EnBüyükBul(new int[] { -150, 150, 23, 4, 0, 90, 7300, 620 }));
-
-static double EnBüyükBul(int[] Dizi)
+class Program
 {
-    int enBüyük = Dizi[0];
-
-    foreach (int i in Dizi)
+    static void Main()
     {
-        if (i > enBüyük)
-        {
-            enBüyük = i;
-        }
+        int[] Dizi = { -15, 200, 150, 350, 7540, 12, -53678, 7000 };
+
+        Console.WriteLine(EnBüyükBul(Dizi));
     }
 
-    return enBüyük;
+    public static int EnBüyükBul(int[] Dizi)
+    {
+        int enBüyük = Dizi[0];
+
+        for (int i = 1; i < Dizi.Length; i++)
+        {
+            if (enBüyük < Dizi[i])
+            {
+                enBüyük = Dizi[i];
+            }
+        }
+
+        return enBüyük;
+    }
 }
