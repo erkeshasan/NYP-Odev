@@ -15,7 +15,7 @@ class Program
         return geçen;
     }
 
-    static void Main()
+    public static void Main()
     {
         string[] StringDizi = { "Hasan", "Berkay", "Muhammed", "Emir", "Ali", "Ahmet" };
 
