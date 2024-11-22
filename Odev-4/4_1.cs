@@ -13,7 +13,7 @@ class Program
         return (taban * yükseklik) / 2;
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine(ÜçgenAlanıHesapla());
     }
