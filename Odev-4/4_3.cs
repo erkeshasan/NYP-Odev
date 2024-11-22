@@ -15,7 +15,7 @@ class Program
         return Bir + İki + Üç;
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine(CalculateSum(20, 50));
         Console.WriteLine(CalculateSum(20.6, 50.3));
