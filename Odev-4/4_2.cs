@@ -15,7 +15,7 @@ class Program
         return enBüyük;
     }
 
-    static void Main()
+    public static void Main()
     {
         int[] Dizi = { -15, 200, 150, 350, 7540, 12, -53678, 7000 };
 
