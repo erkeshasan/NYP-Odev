@@ -8,7 +8,7 @@ class Program
         return Fibonacci(Terim - 1) + Fibonacci(Terim - 2);
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.Write("Terim: ");
         int terim = Convert.ToInt32(Console.ReadLine());
