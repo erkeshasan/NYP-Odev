@@ -1,16 +1,25 @@
-Console.WriteLine(FiltreliToplam(new int[] { 0, 12, 13, 14, 15, 16, 17, 18, 20, 30 }, 18));
-
-static int FiltreliToplam(int[] Dizi, int Filtre)
+class Program
 {
-    int toplam = 0;
-
-    foreach (int i in Dizi)
+    static int FiltreliToplam(int[] Dizi, int Filtre)
     {
-        if (i > Filtre)
+        int toplam = 0;
+
+        foreach (int i in Dizi)
         {
-            toplam = toplam + i;
+            if (i > Filtre)
+            {
+                toplam = toplam + i;
+            }
         }
+
+        return toplam;
     }
 
-    return toplam;
+    static void Main()
+    {
+        int[] Dizi = { 7, 12, 13, 14, 15, 16, 17, 18, 20, 30 };
+        int Filtre = 18;
+
+        Console.WriteLine(FiltreliToplam(Dizi, Filtre));
+    }
 }
