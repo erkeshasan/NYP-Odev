@@ -1,6 +1,6 @@
 class Program
 {
-    static int FiltreliToplam(int[] Dizi, int Filtre)
+    public static int FiltreliToplam(int[] Dizi, int Filtre)
     {
         int toplam = 0;
 
@@ -15,7 +15,7 @@ class Program
         return toplam;
     }
 
-    static void Main()
+    public static void Main()
     {
         int[] Dizi = { 7, 12, 13, 14, 15, 16, 17, 18, 20, 30 };
         int Filtre = 18;
