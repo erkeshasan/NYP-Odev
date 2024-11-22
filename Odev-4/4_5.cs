@@ -12,7 +12,7 @@ class Program
         return toplam / sayılar.Length;
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine(AritmetikOrtalama(4.2, 25.7));
         Console.WriteLine(AritmetikOrtalama(1, 2, 3, 4, 5));
