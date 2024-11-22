@@ -1,16 +1,26 @@
-Console.WriteLine(string.Join(", ", StringFiltresi(new string[] {"hasan", "abcdefg", "berkay", "emir", "ali"})));
-
-static List<string> StringFiltresi(string[] Strings)
+class Program
 {
-    List<string> geçen = new List<string> {};
-
-    foreach (string str in Strings)
+    static List<string> StringFiltresi(string[] Strings)
     {
-        if (str.Length > 5)
+        List<string> geçen = new List<string> { };
+
+        foreach (string str in Strings)
         {
-            geçen.Add(str);
+            if (str.Length > 5)
+            {
+                geçen.Add(str);
+            }
         }
+
+        return geçen;
     }
 
-    return geçen;
+    static void Main()
+    {
+        string[] StringDizi = { "Hasan", "Berkay", "Muhammed", "Emir", "Ali", "Ahmet" };
+
+        List<string> FiltrelenmişDizi = StringFiltresi(StringDizi);
+
+        Console.WriteLine(string.Join(", ", FiltrelenmişDizi));
+    }
 }
